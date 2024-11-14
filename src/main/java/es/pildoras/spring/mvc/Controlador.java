@@ -11,5 +11,4 @@ public class Controlador {
     public String redirigir(){
         return "index";
     }
-    
 }
