@@ -17,7 +17,7 @@ public class Servlet extends HttpServlet{
         resp.getWriter().println("Hola desde el servlet");
 
         //TODO no fucniona al redirecionar al jsp, revisar y terminar el controller
-        RequestDispatcher dispatcher= req.getRequestDispatcher("/WEB-INF/vistas/index.jsp");
+        RequestDispatcher dispatcher= req.getRequestDispatcher("/WEB-INF/vistas/indexSer.jsp");
         dispatcher.forward(req, resp);
 
     }

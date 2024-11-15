@@ -15,10 +15,9 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
-	<!-- Ubicaci n URL del servlet -->
+	<!-- Ubicacion URL del servlet -->
 	<servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-	
 </web-app>

@@ -9,6 +9,6 @@ public class Controlador {
 
     @RequestMapping("/")
     public String redirigir(){
-        return "index";
+        return "indexXML";
     }
 }
