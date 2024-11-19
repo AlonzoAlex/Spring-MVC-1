@@ -14,11 +14,14 @@
     <!-- Habilitar soporte para anotaciones en los controladores -->
     <context:component-scan base-package="es.pildoras.spring.mvc"/>
 	<context:annotation-config/>
+	<mvc:annotation-driven />
     
     <!-- Configuración de los resolutores de vistas -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/vistas/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
+	<mvc:resources mapping="/recursos/**" location="/recursos/"></mvc:resources>
 
 </beans>

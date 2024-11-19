@@ -1,2 +1,4 @@
-es\pildoras\spring\mvc\Main.class
 es\pildoras\spring\mvc\Controlador.class
+es\pildoras\spring\mvc\Servlet.class
+es\pildoras\spring\mvc\HolaAlumnozControlador.class
+es\pildoras\spring\mvc\Main.class

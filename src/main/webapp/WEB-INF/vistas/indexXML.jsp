@@ -8,7 +8,9 @@
 </head>
 <body>
     <h1>
-        Primer ejemplo de MVC con spring con los XML
+        Pagina de inicio para el formulario - Hecho con Spring MVC y XML
     </h1>
+
+    <a href="muestraFormulario">Ir al Formulario</a>
 </body>
 </html>
