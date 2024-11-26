@@ -1,4 +1,6 @@
+es\pildoras\spring\mvc\ControladorAlumno.class
 es\pildoras\spring\mvc\Controlador.class
 es\pildoras\spring\mvc\Servlet.class
+es\pildoras\spring\mvc\Alumno.class
 es\pildoras\spring\mvc\HolaAlumnozControlador.class
-es\pildoras\spring\mvc\Main.class
+es\pildoras\spring\mvc\TirarControlador.class

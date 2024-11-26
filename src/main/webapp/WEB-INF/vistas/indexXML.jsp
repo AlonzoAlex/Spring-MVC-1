@@ -11,6 +11,8 @@
         Pagina de inicio para el formulario - Hecho con Spring MVC y XML
     </h1>
 
-    <a href="muestraFormulario">Ir al Formulario</a>
+    <a href="principal/muestraFormulario">Ir al Formulario Principal</a><br>
+    <a href="secundario/MuestraFormulario">Ir al Fomulario Secundario</a><br>
+    <a href="alumno/muestraFormulario">Ir al Formulario de Registro</a><br>
 </body>
 </html>

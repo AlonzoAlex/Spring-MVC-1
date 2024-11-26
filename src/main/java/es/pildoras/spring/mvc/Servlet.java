@@ -16,7 +16,6 @@ public class Servlet extends HttpServlet{
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
         resp.getWriter().println("Hola desde el servlet");
 
-        //TODO no fucniona al redirecionar al jsp, revisar y terminar el controller
         RequestDispatcher dispatcher= req.getRequestDispatcher("/WEB-INF/vistas/indexSer.jsp");
         dispatcher.forward(req, resp);
 
