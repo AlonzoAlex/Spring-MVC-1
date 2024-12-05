@@ -4,8 +4,9 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
+
+import es.pildoras.spring.mvc.validaciones.postalMadrid;
 
 public class Alumno {
     @NotNull
@@ -20,7 +21,8 @@ public class Alumno {
     private String idiomas;
     @Email
     private String email;
-    @Pattern(regexp="[0-9]{5}", message="Ingrese un codigo postal correcto")
+    //@Pattern(regexp="[0-9]{5}", message="Ingrese un codigo postal correcto")
+    @postalMadrid
     private String codigoPostal;
     
     public String getNombre() {

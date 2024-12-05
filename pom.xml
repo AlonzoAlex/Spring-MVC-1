@@ -58,6 +58,11 @@
             <artifactId>hibernate-validator</artifactId>
             <version>6.2.0.Final</version>
         </dependency>
+        <dependency>
+            <groupId>cn.featherfly.validation</groupId>
+            <artifactId>javax.validation-api</artifactId>
+            <version>0.1.0</version>
+        </dependency>
         
     </dependencies>
 

@@ -15,7 +15,7 @@
     <br>
     Idiomas escogidos:<br>
     ${a1Name.idiomas}<br>
-    Se ha registrado el codigo postal numero &{a1Nombre.codigoPostal}
+    Se ha registrado el codigo postal numero &{a1Name.codigoPostal}
 
 </body>
 </html>
